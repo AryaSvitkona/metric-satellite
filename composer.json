@@ -1,0 +1,24 @@
+{
+  "name": "aryasvitkona/metric-satellite",
+  "description": "Expose app and environment metrics of a Laravel application.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.4",
+    "illuminate/support": "^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AryaSvitkona\\MetricSatellite\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AryaSvitkona\\MetricSatellite\\MetricSatelliteServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
